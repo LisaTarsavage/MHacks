@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Vizi Voice",
+    "version": "1.0",
+    "description": "Automatically generates alt text for websites & incorporates them into text to speec",
+    "permissions": ["downloads", "scripting", "tabs"],
+    "host_permissions": ["<all_urls>", "https://your-api.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "headphones.png"
+    }
+}
+  
