@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Automatically generates alt text for websites & incorporates them into text to speec",
     "permissions": ["downloads", "scripting", "tabs"],
-    "host_permissions": ["<all_urls>", "https://your-api.com/*"],
+    "host_permissions": ["<all_urls>", "https://b3a9-35-0-30-233.ngrok-free.app/*"],
     "background": {
       "service_worker": "background.js"
     },
